@@ -1,0 +1,22 @@
+.bg-second{
+    background-color: #e5e5e5;
+}
+.orgn-bx{
+    position: relative;
+}
+.orgn-bx h5{
+    position: absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%, -50%);
+            transform:translate(-50%, -50%);
+}
+.logo img{
+    height:90px;
+}
+.sticky-header.flex.sticky .logo img{
+    height:70px;
+}
+.rspns-hdr .logo img{
+    height:30px;
+}
