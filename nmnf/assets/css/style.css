@@ -200,6 +200,9 @@ footer,
 }
 .container {
   padding: 0;
+  /* max-width:85rem; */
+}
+.wb-lgmnu-wrp .container{
   max-width:85rem;
 }
 .remove-ext,
@@ -1847,7 +1850,7 @@ header.style1.v3 {padding-top: 1.875rem;}
 .cus-cat > a.bg-clr3::before {border-left-color: #0071ce;}
 .cus-inf {
   width: 100%;
-  padding: 2.1875rem 2.5rem;
+  padding: 1.1875rem 0.5rem;
 }
 .cus-mta {
   padding-left: 0;
@@ -5400,7 +5403,7 @@ ul.insta-gal + .insta-gal-inf {margin-top: 1.5625rem;}
 /*===== Team Detail =====*/
 .tem-dtl-wrp {
   width: 100%;
-  padding: 0 6.25rem;
+  /* padding: 0 6.25rem; */
 }
 .tem-dtl-inf-wrp,
 .tem-dtl-inf-wrp img {width: 100%;}
