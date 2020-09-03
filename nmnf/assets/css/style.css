@@ -202,7 +202,7 @@ footer,
   padding: 0;
   /* max-width:85rem; */
 }
-.wb-lgmnu-wrp .container{
+header .container{
   max-width:85rem;
 }
 .remove-ext,
@@ -4679,7 +4679,6 @@ ol.breadcrumb li.breadcrumb-item + li.breadcrumb-item:before {
 .cnt-scl > a:focus {background-color: #fff;}
 .cnt-mp {
   width: 100%;
-  height: 30.9375rem;
 }
 .cnt-inf + .cnt-mp {margin-top: 1.875rem;}
 .cnt-wrp + .cnt-fq {margin-top: 7.5rem;}
