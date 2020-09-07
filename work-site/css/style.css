@@ -882,7 +882,7 @@ textarea:focus {
 */
 
 .subheader {
-	padding: 270px 0 180px 0;
+	padding: 170px 0 80px 0;
 	position: relative;
 	text-align: center;
 	background: url(../images/background/2.jpg) center center no-repeat;
@@ -4492,8 +4492,51 @@ tr.border-bottom td {
 .slide-nav-trigger {
 	display: none;
 }
-
-
+.custom-panel .panel-heading{
+	padding:12px 2px;
+	background-color:#e2dede;
+}
+.fot-top{
+	margin-top:150px;
+}
+.master-label{
+	margin-bottom:4px;
+	font-weight:600;
+}
+.form-margin{
+	margin-bottom:16px;
+}
+.radio-wrapper input{
+    opacity:0;
+    visibility:0;
+}
+.radio-wrapper label{
+    padding:2px 10px;
+    border:2px solid #fd880a;
+    font-size:16px;
+    font-weight: 400;
+    background-color:#fff;
+    border-radius:0;
+}
+.radio-wrapper label:hover{
+    cursor: pointer;
+}
+.radio-wrapper input:checked + label {
+    background-color: #fd880a;
+    color: #FFF;
+    border-color: #fd880a;
+    z-index: 1;
+  }
+  p.mb8{
+	  margin-bottom:8px;
+  }
+  @media only screen and (min-width: 768px)
+{
+	.overview {
+		-moz-columns: 2;
+		columns: 2;
+	}
+}
 /*
 |----------------------------------------------------------------------------
 | 26. Footer Style
