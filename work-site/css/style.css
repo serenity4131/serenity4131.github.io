@@ -773,6 +773,7 @@ textarea:focus {
 	position: relative;
 	background: url(../images/background/5.jpg) center center no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 .header-content-block {
